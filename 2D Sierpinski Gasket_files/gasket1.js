@@ -3,7 +3,7 @@
 var gl;
 var points;
 
-var NumPoints = 5000000;
+var NumPoints = 5000;
 
 window.onload = function init()
 {
@@ -49,7 +49,7 @@ window.onload = function init()
     //
     //  Configure WebGL
     //
-    gl.viewport( 0, 0, canvas.width, canvas.height );
+    gl.viewport( 100, 100, canvas.width, canvas.height );
     gl.clearColor( 1.0, 1.0, 1.0, 1.0 );
 
     //  Load shaders and initialize attribute buffers
